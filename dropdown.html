@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dropdown</title>
+  <link rel="stylesheet" href="dropdown.css">
+</head>
+<body>
+  <div class="container">
+    <div class="navbar">
+      <div class="logo">
+        <img src="./images/logo.svg" alt="">
+      </div>
+      <div class="navlist">
+        <ul class="contact">
+          <li class="dropdown">
+            <a href="#">Features <i class="fas fa-chevron-down"></i></a>
+            <div class="dropdown-menu">
+              <a href="#"><img src="./images/icon-todo.svg" alt="Todo List"> Todo list</a>
+              <a href="#"><img src="./images/icon-calendar.svg" alt="Calendar"> Calendar</a>
+              <a href="#"><img src="./images/icon-reminders.svg" alt="Reminder"> Reminder</a>
+              <a href="#"><img src="./images/icon-planning.svg" alt="Planning"> Planning</a>
+            </div>
+          </li>
+          <li class="dropdown">
+            <a href="#">Company <i class="fas fa-chevron-down"></i></a>
+            <div class="dropdown-menu">
+              <a href="#">History</a>
+              <a href="#">Our Team</a>
+              <a href="#">Blogs</a>
+            </div>
+          </li>
+          <li><a href="#">Careers</a></li>
+          <li><a href="#">About</a></li>                    
+        </ul>
+      </div>
+      <div class="btn">
+        <a href="#">Login</a>
+        <button class="end"><a href="#">Register</a></button>
+      </div>
+    </div>
+    <div class="main">
+      <div class="left">
+        <h1>Make <br>remote work</h1>
+        <p>Get your team in sync, no matter your location. Streamline processes, 
+          create team rituals, and watch productivity soar.</p>
+        <button><a href="#" class="learn-more-btn">Learn more</a></button>
+        <div class="images">
+          <img src="./images/client-databiz.svg" alt="">
+          <img src="./images/client-audiophile.svg" alt="">
+          <img src="./images/client-meet.svg" alt="">
+          <img src="./images/client-maker.svg" alt="">
+        </div>
+      </div>
+      <div class="right">
+        <img src="./images/image-hero-desktop.png" alt="" class="hero">
+      </div>
+    </div>
+  </div>
+  <script src="dropdown.js"></script>
+</body>
+</html>
